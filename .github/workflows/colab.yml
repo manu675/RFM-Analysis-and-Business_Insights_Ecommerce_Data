@@ -1,0 +1,25 @@
+name: Colab CI/CD Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  test-notebook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install nbconvert ipykernel papermill
+          # inser the name of the libraries needed into the requirements.txt file:
+          pip install -r requirements.txt 
+
+      - name: Execute Notebook # Papermill führt das Notebook aus und prüft auf Fehler
+          papermill MeinNotebook.ipynb output.ipynb
+        run: |
