@@ -1,6 +1,0 @@
-# list of libraries and their versions required by the notebook you want to run  #
-numpy             # Installs the latest available version
-pandas == 2.0.0   # Exact version: Must be exactly 2.0.0
-matplotlib ~= 3.5
-zipfile
-seaborn
