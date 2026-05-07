@@ -6,6 +6,7 @@ I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique cus
 
 
 **Key insights from the RFM analysis**:
+- Recency is measured as the no. of days between the most recent order in the entire dataset (Oct 18, 2018) and each customer's last purchase date), Frequency is quantified as the count of unique orders per customer, and Monetary is the sum of price and freight value per customer
 - both frequency and monetary are very skewed and exhibit a heavy tails distribution. This means that in the tails of the distribution, very few customers spend a lot more than average and purchase more frequently than just once
 - more than 75% of customers didn't make more than one purchase and the max number of purchases by a unique customer is 17.
 - 50% of customers haven't made a purchase for 269 days or ~9 months as of October 18, 2018 (the last transaction in the data set)
