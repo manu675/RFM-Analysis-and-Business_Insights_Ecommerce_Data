@@ -2,7 +2,9 @@ Executive Summary:  I analyzed 119k+ Brazilian e-commerce orders in order to seg
 
 Key insights:
 
-Visualizations:
+Visualizations: ![Alt Text](images/heatmap_relimp_segments.png)
+
+Tables: [View Full RFM Segmentation Table (CSV)](tables/rfm_df_summarystats.csv)
 
 
 Strategic recommendations
