@@ -23,7 +23,7 @@
 
 ![Alt Text](images/countplot_customercity.png)  
 
-![Alt Text](images/elbowmethod_kmeans_clusters.png.png)
+![Alt Text](images/elbowmethod_kmeans_clusters.png)
 
 ![Alt Text](images/customersegment_pct_piechart.png)
 
@@ -32,7 +32,7 @@
 
 [Summary Statistics on the 6 generated customer segments](tables/cluster_analysis.csv)
 
-
+**Data Source**: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 **Strategic recommendations**:
 - a local warehouse in Sao Paulo or at least in the state "SP" makes sense logistically
