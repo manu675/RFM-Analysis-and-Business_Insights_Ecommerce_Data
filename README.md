@@ -21,7 +21,9 @@
 **Visualizations**:   
 ![Alt Text](images/heatmap_relimp_segments.png)  
 
-![Alt Text](images/countplot_customercity.png)
+![Alt Text](images/countplot_customercity.png)  
+
+![Alt Text](images/elbowmethod_kmeans_clusters.png.png)
 
 ![Alt Text](images/customersegment_pct_piechart.png)
 
