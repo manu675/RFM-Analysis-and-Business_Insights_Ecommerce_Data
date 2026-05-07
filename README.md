@@ -16,6 +16,10 @@
 - 18,000 customers (19%) can be considered "low value" from a business lens due to the fact that this segment exhibits high recency values (last purchase occured long ago) and low monetary values.
 - About 22,500 customers (23%) are slipping away according to this analysis since customers in this segment tend to spend the second lowest amount of money and they tend to range in the second lowest recency value range (they purchased recently).
 - 11,400 customers (12%) can be considered as loyal customers. The latter segment is characterized by the highest monetary values combined with a moderate recency.
+
+**Strategic recommendations**:
+- a local warehouse in Sao Paulo or at least in the state "SP" makes sense logistically
+- a "win-back" campaign would be in order to act on the insight that 50% of customers have been "hibernating", i.e. they haven't made a purchase in 9 months or more.
   
 
 **Visualizations**:   
@@ -34,6 +38,3 @@
 
 **Data Source**: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-**Strategic recommendations**:
-- a local warehouse in Sao Paulo or at least in the state "SP" makes sense logistically
-- a "win-back" campaign would be in order to act on the insight that 50% of customers have been "hibernating", i.e. they haven't made a purchase in 9 months or more.
