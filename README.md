@@ -4,6 +4,8 @@ Key insights:
 
 Visualizations: ![Alt Text](images/heatmap_relimp_segments.png)
 
+![Alt Text](images/customersegment_pct_piechart.png)
+
 Tables: [View Full RFM Segmentation Table (CSV)](tables/rfm_df_summarystats.csv)
 
 
