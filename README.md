@@ -1,4 +1,5 @@
-**Executive Summary**:  I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique customers into actionable customer groups from a marketing point of view in order to help the Brazilian firm "Olist" to conceive retention programs, evaluate logistics, and to identify high-value customers. First, I merged the 7 separate data sets using key columns, then I created histograms for the numeric features and top10-category-countplots for the categorical features to obtain first insights. Thereafter, I created a separate array with numerical values that represent the 3 dimensions of a Recency-Frequency-Monetary (RFM) model that is commonly used in order to segment unique customers by means of the unsupervised k-means algorithm. In this case, 6 centroids were chosen by applying the Elbow method. Kmeans initializes the centroids for the clusters randomly and then minimizes the Euclidian distance between the data points an the centroids for each cluster until convergence (for details see https://stanford.edu/~cpiech/cs221/handouts/kmeans.html). Before running the algorithm, a log-transformation and a standard-normal scaling was applied to the data to account for the right (positive) skewness and the heavy tails caused by more frequently occuring extreme outliers compared to a Gaussian distribution that were found in the raw data. Recency describes the number of days that have passed since the last purchase compared to a reference data (Oct 18, 2018). Frequency refers to the number of purchases made and Monetary refers to the sum of price and freight value per unique customer. After running the algorithm, I analyzed the clusters and labeled them accordingly. The customer segments of interest are as follows: low value customers, loyal customers, recent users, best customers, new customers and slipping customers.
+**Executive Summary**:  
+I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique customers into actionable customer groups from a marketing point of view in order to help the Brazilian firm "Olist" to conceive retention programs, evaluate logistics, and to identify high-value customers. First, I merged the 7 separate data sets using key columns, then I created histograms for the numeric features and top10-category-countplots for the categorical features to obtain first insights. Thereafter, I created a separate array with numerical values that represent the 3 dimensions of a Recency-Frequency-Monetary (RFM) model that is commonly used in order to segment unique customers by means of the unsupervised k-means algorithm. In this case, 6 centroids were chosen by applying the Elbow method. Kmeans initializes the centroids for the clusters randomly and then minimizes the Euclidian distance between the data points an the centroids for each cluster until convergence (for details see https://stanford.edu/~cpiech/cs221/handouts/kmeans.html). Before running the algorithm, a log-transformation and a standard-normal scaling was applied to the data to account for the right (positive) skewness and the heavy tails caused by more frequently occuring extreme outliers compared to a Gaussian distribution that were found in the raw data. Recency describes the number of days that have passed since the last purchase compared to a reference data (Oct 18, 2018). Frequency refers to the number of purchases made and Monetary refers to the sum of price and freight value per unique customer. After running the algorithm, I analyzed the clusters and labeled them accordingly. The customer segments of interest are as follows: low value customers, loyal customers, recent users, best customers, new customers and slipping customers.
 
 **Key insights from the exploratory data analysis**:
 - the Brazilian seller_state "SP" and the seller_city "Sao Paulo" are by far the most frequent. Sao Paulo is also the most frequent customer city, followed by Rio de Janeiro and "SP" is also the most frequent customer_state
@@ -23,18 +24,19 @@
   
 
 **Visualizations**:   
-![Alt Text](images/heatmap_relimp_segments.png)  
+![Alt Text](images/heatmap_relimp_segments.png)    
 
-![Alt Text](images/countplot_customercity.png)  
+![Alt Text](images/countplot_customercity.png)    
 
-![Alt Text](images/elbowmethod_kmeans_clusters.png)
+![Alt Text](images/elbowmethod_kmeans_clusters.png)  
 
-![Alt Text](images/customersegment_pct_piechart.png)
+![Alt Text](images/customersegment_pct_piechart.png)  
 
-**Tables**:   
-[Summary Statistics on the preprocessed RFM data](tables/rfm_df_summarystats.csv)  
+**Tables**:     
+[Summary Statistics on the preprocessed RFM data](tables/rfm_df_summarystats.csv)    
 
 [Summary Statistics on the 6 generated customer segments](tables/cluster_analysis.csv)
 
-**Data Source**: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+**Data Source**:   
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
