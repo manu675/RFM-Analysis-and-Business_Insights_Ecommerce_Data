@@ -18,7 +18,9 @@ Visualizations:
 ![Alt Text](images/customersegment_pct_piechart.png)
 
 Tables: 
-[Summary Statistics on the preprocesse RFM data](tables/rfm_df_summarystats.csv)
+[Summary Statistics on the preprocessed RFM data](tables/rfm_df_summarystats.csv)
+[Summary Statistics on the 6 generated customer segments](tables/cluster_analysis.csv)
+
 
 
 Strategic recommendations:
