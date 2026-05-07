@@ -35,6 +35,12 @@ I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique cus
 
 **Tables**:     
 [Summary Statistics on the preprocessed RFM data](tables/rfm_df_summarystats.csv)    
+|           |   count |   mean |    std |   min |    p25 |    p50 |   p75 |     max |   skew |   kurt |
+|:----------|--------:|-------:|-------:|------:|-------:|-------:|------:|--------:|-------:|-------:|
+| recency   |   96095 | 288.73 | 153.41 |     1 | 164    | 269    | 398   |   773   |   0.45 |  -0.66 |
+| frequency |   96095 |   1.03 |   0.21 |     1 |   1    |   1    |   1   |    17   |  11.86 | 421.41 |
+| monetary  |   96095 | 173.2  | 264.15 |     0 |  63.27 | 109.82 | 188.2 | 13664.1 |  11.8  | 324.46 |  
+
 
 [Summary Statistics on the 6 generated customer segments](tables/cluster_analysis.csv)
 |                         |   Low_Value_Customers |   Loyal_Customers |   Recent_Users |   Best_Customers |   New_Customers |   Slipping_Customers |
