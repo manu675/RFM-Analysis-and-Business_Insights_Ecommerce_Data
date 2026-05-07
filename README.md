@@ -37,6 +37,24 @@ I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique cus
 [Summary Statistics on the preprocessed RFM data](tables/rfm_df_summarystats.csv)    
 
 [Summary Statistics on the 6 generated customer segments](tables/cluster_analysis.csv)
+|                         |   Low_Value_Customers |   Loyal_Customers |   Recent_Users |   Best_Customers |   New_Customers |   Slipping_Customers |
+|:------------------------|----------------------:|------------------:|---------------:|-----------------:|----------------:|---------------------:|
+| ('recency', 'mean')     |                347.14 |            290.29 |         444.29 |           269.21 |           90.09 |               208.01 |
+| ('recency', 'median')   |                327    |            275    |         435    |           249    |           86    |               205    |
+| ('recency', 'min')      |                 42    |             53    |         286    |             1    |            1    |               123    |
+| ('recency', 'max')      |                765    |            744    |         773    |           741    |          144    |               306    |
+| ('recency', 'std')      |                121.48 |            126.84 |          99.1  |           145.35 |           23.23 |                45.15 |
+| ('frequency', 'mean')   |                  1    |              1    |           1    |             2.12 |            1    |                 1    |
+| ('frequency', 'median') |                  1    |              1    |           1    |             2    |            1    |                 1    |
+| ('frequency', 'min')    |                  1    |              1    |           1    |             2    |            1    |                 1    |
+| ('frequency', 'max')    |                  1    |              1    |           1    |            17    |            1    |                 1    |
+| ('frequency', 'std')    |                  0    |              0    |           0    |             0.52 |            0    |                 0    |
+| ('monetary', 'mean')    |                 42.05 |            581.63 |         138.01 |           345.7  |          123.02 |               123.48 |
+| ('monetary', 'median')  |                 42.32 |            411.62 |         124.1  |           243.86 |           96.88 |               114.42 |
+| ('monetary', 'min')     |                  0    |            215.57 |          48.55 |             0    |            0    |                38.13 |
+| ('monetary', 'max')     |                 75.07 |          13664.1  |         467.2  |          7571.63 |         1024.76 |               291.44 |
+| ('monetary', 'std')     |                 15.01 |            556.35 |          61.25 |           389.2  |           93.23 |                50.81 |
+| ('cluster', 'count')    |              18072    |          11400    |       25319    |          2997    |        15783    |             22524    |
 
 **Data Source**:   
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
