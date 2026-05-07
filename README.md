@@ -9,7 +9,7 @@ I analyzed 119k+ Brazilian e-commerce orders in order to segment 96k+ unique cus
 - both frequency and monetary are very skewed and exhibit a heavy tails distribution. This means that in the tails of the distribution, very few customers spend a lot more than average and purchase more frequently than just once
 - more than 75% of customers didn't make more than one purchase and the max number of purchases by a unique customer is 17.
 - 50% of customers haven't made a purchase for 269 days or ~9 months as of October 18, 2018 (the last transaction in the data set)
-- The heatmap for each customer segment visualizes the relative importances of each RFM dimension, which are calculated as the diffences between the cluster or segment mean and the global mean for the entire data set. Green signifies positive from a business lens, yellow represents moderate and orange has a negative impact from a business perspective
+- The heatmap for each customer segment visualizes the relative importances of each RFM dimension, which are calculated as the diffences between the cluster or segment mean and the global mean for the entire data set. Green signifies positive from a business lens, yellow represents moderate and orange visualizes a negative impact from a business perspective
   
 
 **Key insights from the cluster analysis**:
